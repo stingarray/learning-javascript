@@ -1,5 +1,17 @@
 # Learning JavaScript
 
+## Downloading this project
+1. Download and install git from [here](https://git-scm.com/download/win)
+2. Once that is done, open the command line (WINDOWS KEY then type cmd), and run the following commands. Be sure to copy and paste because this script deletes folders.
+
+```bash
+cd c:\development
+RMDIR /Q /S learning-javascript
+git clone https://github.com/jreina/learning-javascript.git
+cd learning-javascript
+code .
+```
+
 ## Installing
 1. If your terminal is not open, press CTRL+`
 2. Click on the terminal to focus on it
@@ -67,4 +79,3 @@ ReferenceError: companyGreeting is not defined
     at bootstrap_node.js:608:3
 npm ERR! Test failed.  See above for more details.
 ```
-
