@@ -23,7 +23,10 @@ code .
 3. Type `npm test`
 4. Read terminal output. If tests are failing, use the information to fix the code and re-run tests until they pass.
 
-## What a passing test looks like
+<details>
+<summary>What a passing test looks like</summary>
+<p>
+
 ```bash
 PS C:\development\learning-javascript> npm test
 
@@ -38,9 +41,13 @@ PS C:\development\learning-javascript> npm test
 
   1 passing (6ms)
 ```
+</p>
+</details>
 
-## What a failing test looks like
-In the below test run, we are using a variable, `companyGreeting`, which has not been defined.
+<details>
+<summary>What a failing test looks like
+In the below test run, we are using a variable, `companyGreeting`, which has not been defined.</summary>
+<p>
 
 ```bash
 PS C:\development\learning-javascript> npm test
@@ -79,3 +86,5 @@ ReferenceError: companyGreeting is not defined
     at bootstrap_node.js:608:3
 npm ERR! Test failed.  See above for more details.
 ```
+</p>
+</details>
