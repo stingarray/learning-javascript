@@ -21,6 +21,7 @@ company.greeting =
   company.employeeNames[2];
 
 describe('2. objects', function() {
+
   it('Should 100% pass', function() {
     const { name, employeeCount, employeeNames, greeting } = company;
     const expected =
