@@ -1,3 +1,4 @@
+const { expect } = require('chai');
 function test1(companyGreeting, company, employeeCount, employeeNames) {
   return function() {
     const expected =

@@ -1,4 +1,3 @@
-const { expect } = require('chai');
 const { test1 } = require('../util/test-util');
 
 // 1. Create a variable called "company" to hold the name of a company called "XYZ Corporation"
