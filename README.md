@@ -87,3 +87,23 @@ code .
   ```
   </p>
 </details>
+
+## Updating your local copy with my updates
+Run `git remote -v` in your VS Code terminal. You should see an entry called `upstream` like the one shown below:
+```bash
+origin    https://github.com/stingarray/learning-javascript.git (fetch)
+origin    https://github.com/stingarray/learning-javascript.git (push)
+upstream  https://github.com/jreina/learning-javascript.git (fetch)
+upstream  https://github.com/jreina/learning-javascript.git (push)
+```
+If you don't see this, run the following command:  
+`git remote add upstream https://github.com/jreina/learning-javascript.git`  
+
+Now you can run `git pull upstream master` and git will pull in any changes that I've made.
+
+## Submitting results
+If you have tests passing, now is the time to send in your changes!
+1. Run `git add .` to _stage_ your changes.  
+1. Then run `git commit -m "<DESCRIPTION OF CHANGES>"`, replacing `<DESCRIPTION OF CHANGES>` with your own description of what you did, e.g. `Adds passing test 2`.  
+1. Finally, run `git push origin master` to send your changes off to Github.  
+1. Now that your changes are in your fork, navigate to your fork [here](https://github.com/stingarray/learning-javascript), and click the "Pull Request" button to start a pull request. This will notifiy me that you have made changes.
