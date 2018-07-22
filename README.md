@@ -99,7 +99,8 @@ upstream  https://github.com/jreina/learning-javascript.git (push)
 If you don't see this, run the following command:  
 `git remote add upstream https://github.com/jreina/learning-javascript.git`  
 
-Now you can run `git pull upstream master` and git will pull in any changes that I've made.
+Now you can run `git pull --rebase upstream master` and git will pull in any changes that I've made.  
+Anytime you update your local branch from my repo, you should also run `git push origin master` to make sure that your repo on Github is in sync with my repo.
 
 ## Submitting results
 If you have tests passing, now is the time to send in your changes!
