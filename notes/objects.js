@@ -25,6 +25,7 @@ person1.car;
 
 var person2 = {};
 
+// Adding a property
 person2.firstName = 'Carrah';
 
 console.log(person2);
