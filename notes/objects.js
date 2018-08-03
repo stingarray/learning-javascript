@@ -17,7 +17,7 @@ var person1 = {
   firstName: 'Johnny',
   lastName: 'Reina',
   age: 27,
-  car: 'Volkswagon'
+  car: 'Volkswagen'
 };
 
 person1.firstName;
